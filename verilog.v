@@ -1,12 +1,5 @@
-module verilog( 
-input clk,
-input rst,
-input sequence_in,
-output data_out
-);
-always @( posedge clk or negedge rst)
-begin
- 
-end
-
+module verilog 
+this is new feature;
+input clk;
+input rst;
 endmodule 
